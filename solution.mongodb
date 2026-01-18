@@ -75,16 +75,17 @@ db.students.insertOne({
     department: "CO",
     semester: 3
   });
-
 // Exercise 07
 db.students.insert({
     name: "Charlotte Bronte",
     department: "IT",
-    semester: 5
-  });
+    semester: 5,
+    mobile: "9999999991"
+});
 
 db.students.insert({
     name: "Cillian Murphy",
     department: "Civil",
-    semester: 7
-  });
+    semester: 7,
+    mobile: "9999999992"
+});

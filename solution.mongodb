@@ -69,14 +69,16 @@ db.students.insertOne({
     _id: ObjectId("6961039739e25d682b1e2630"),
     name: "Christopher Nolan",
     department: "EC",
-    semester: 4
+    semester: 4,
+    mobile: "1111122222"
   });
 
 db.students.insertOne({
     _id: ObjectId("6961039739e25d682b1e2630"),
     name: "Kate Winslet",
     department: "CO",
-    semester: 3
+    semester: 3,
+    mobile: "3333344444"
   });
 // Exercise 07
 db.students.insert({
@@ -92,4 +94,5 @@ db.students.insert({
     semester: 7,
     mobile: "9999999992"
 });
+
 

@@ -58,8 +58,11 @@ db.faculty.insertOne({
 // Exercise 05
 db.students.insertOne({
     _id: ObjectId(),
-    name: "Taylor Swift"
-  });
+    name: "Taylor Swift",
+    department: "IT",
+    semester: 1,
+    mobile: "8888888888"
+});
 
 // Exercise 06
 db.students.insertOne({
@@ -89,3 +92,4 @@ db.students.insert({
     semester: 7,
     mobile: "9999999992"
 });
+
